@@ -1,5 +1,7 @@
 [<< BACK](README.md)
 
+[Clone repository](#clone-repository)
+
 ### Clone repository
 
 The first step is always to clone the repository where you are going to work:
