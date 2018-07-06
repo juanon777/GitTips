@@ -50,7 +50,8 @@ Something similar to
 ```
 Switched to a new branch 'development'
 Branch 'development' set up to track remote branch 'master' from 'origin'.
-```git branch
+```
+
 will be show. 
 
 
