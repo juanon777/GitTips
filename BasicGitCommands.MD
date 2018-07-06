@@ -4,6 +4,7 @@
 - [List local and remote branches](#list-local-and-remote-branches)
 - [Create a branch from a remote branch](#create-a-branch-from-a-remote-branch)
 - [Fetch and merge the latest modifications](#fetch-and-merge-the-latests-modifications)
+- [List all the branches and where the local branches points](#list-all-the-branches-and-where-the-local-branches-points)
 
 ### Clone repository
 
