@@ -102,7 +102,7 @@ master        0fa8b46 [origin/master] new file
 
 will be show.
 
-e.g feature0102 branch points to **origin/development** but you can push to another branch with:
+e.g **feature0102** branch points to **origin/development** but you can push to another branch with:
 
 ```
 git push -u origin feature0102
