@@ -54,7 +54,7 @@ Branch 'development' set up to track remote branch 'master' from 'origin'.
 
 will be show. 
 
-### Fetch the latests modifications
+### Fetch and merge the latests modifications
 
 Fetch the latest changes from the remote branch to your current branch.
 
@@ -80,5 +80,42 @@ Fast-forward
 will be show. 
 This output indicates that there was a change in the **readme.md** file.
 git pull performs two actions: **git fetch** + **git merge**.
+
+### List all the branches and where the local branches points
+
+```
+git branch -vv
+```
+Something similar to
+
+```
+* feature0102 20fddb1 [origin/development] new feature
+development   52fddb1 [origin/development] fix comments
+master        0fa8b46 [origin/master] new file
+```
+
+will be show.
+
+e.g feature0102 branch points to **origin/development** but you can push to another branch with:
+
+```
+git push -u origin feature0102
+```
+
+If you execute:
+
+```
+git branch -vv
+```
+
+Something similar to
+
+```
+* feature0102 f3fa2b [origin/feature0102] new feature
+development   52fddb1 [origin/development] fix comments
+master        0fa8b46 [origin/master] new file
+```
+will be show. 
+
 
 [<< BACK](README.md)
