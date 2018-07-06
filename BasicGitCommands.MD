@@ -1,9 +1,9 @@
 [<< BACK](README.md)
 
-[Clone repository](#clone-repository)
-[List local and remote branches](#list-local-and-remote-branches)
-[Create a branch from a remote branch](#create-a-branch-from-a-remote-branch)
-[Fetch and merge the latest modifications](#fetch-and-merge-the-latests-modifications)
+- [Clone repository](#clone-repository)
+- [List local and remote branches](#list-local-and-remote-branches)
+- [Create a branch from a remote branch](#create-a-branch-from-a-remote-branch)
+- [Fetch and merge the latest modifications](#fetch-and-merge-the-latests-modifications)
 
 ### Clone repository
 
