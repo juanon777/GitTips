@@ -1,6 +1,6 @@
 [<< BACK](README.md)
 
-### Workflow to modify and upload a change to a remote branch that doesn't exist
+### Workflow: Create a branch and integrate the changes in other
 
 A Common workflow in our everyday life with git. Create a new branch (e.g **development**) from another base branch (e.g **master**) and then integrate the changes to master through a pull request.
 
