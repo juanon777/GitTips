@@ -54,9 +54,9 @@ Branch 'development' set up to track remote branch 'master' from 'origin'.
 
 will be show. 
 
-### Fecth the latests modifications
+### Fetch the latests modifications
 
-Fecth the latest changes from the remote branch to your current branch.
+Fetch the latest changes from the remote branch to your current branch.
 
 ```
 git pull
