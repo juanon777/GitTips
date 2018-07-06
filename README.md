@@ -22,7 +22,7 @@ Unpacking objects: 100% (4/4), done.
 
 A **GitTips** folder will be created.
 
-### State of the branches of the repository
+### List local and remote branches
 
 ```
 git branch -a
@@ -36,4 +36,21 @@ Something similar to
   remotes/origin/master
 ```
   
-will be show.
+will be show. 
+
+### Create a branch from a remote branch
+
+How to create a local branch (development) from a remote branch (origin/master)
+
+```
+git checkout -b development origin/master
+```
+Something similar to
+
+```
+Switched to a new branch 'development'
+Branch 'development' set up to track remote branch 'master' from 'origin'.
+```git branch
+will be show. 
+
+
