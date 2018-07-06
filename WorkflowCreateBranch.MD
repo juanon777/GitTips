@@ -2,9 +2,17 @@
 
 ### Workflow to modify and upload a change to a remote branch that doesn't exist
 
-A Common workflow in our everyday life with git.
+A Common workflow in our everyday life with git. Create a new branch (e.g **development**) from another base branch (e.g **master**) and then integrate the changes to master through a pull request.
 
-##### Step 1/6 Verify if you are in the good branch (development) #####
+##### Step 1/6 Create a branch (if doesnt exists) and verify if you are in the good branch (development) #####
+
+Create the development branch.
+
+```
+git checkout -b development origin/master
+```
+
+Verify the current branch.
 
 ```
 git branch -a
@@ -19,7 +27,7 @@ Something similar to
   remotes/origin/master
 ```
 will be show. 
-You are in the good branch. If not: **git checkout development** 
+You are in the development branch. If not: **git checkout development** 
 
 ##### Step 2/6 Modify something and then check the status of the branch #####
   
