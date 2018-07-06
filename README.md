@@ -157,7 +157,7 @@ will be show.
 git commit -m "fix comments"
 ```  
   
-##### 6/6 Push the changes in a new remote branch #####
+##### Step 6/6 Push the changes in a new remote branch #####
 
 A development remote branch will be created.
 
