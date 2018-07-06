@@ -89,7 +89,7 @@ git branch -vv
 Something similar to
 
 ```
-* feature0102 20fddb1 [origin/development] new feature
+* feature0102 20f23a1 [origin/development] new feature
 development   52fddb1 [origin/development] fix comments
 master        0fa8b46 [origin/master] new file
 ```
@@ -111,7 +111,7 @@ git branch -vv
 Something similar to
 
 ```
-* feature0102 f3fa2b [origin/feature0102] new feature
+* feature0102 f3fa2b4 [origin/feature0102] new feature
 development   52fddb1 [origin/development] fix comments
 master        0fa8b46 [origin/master] new file
 ```
