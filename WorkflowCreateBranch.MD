@@ -4,7 +4,7 @@
 
 A Common workflow in our everyday life with git. Create a new branch (e.g **development**) from another base branch (e.g **master**) and then integrate the changes to master through a pull request.
 
-##### Step 1/6 Create a branch (if doesnt exists) and verify if you are in the good branch (development) #####
+#### Step 1/6 Create a branch (if doesnt exists) and verify if you are in the good branch (development) ####
 
 Create the development branch.
 
@@ -29,7 +29,7 @@ Something similar to
 will be show. 
 You are in the development branch. If not: **git checkout development** 
 
-##### Step 2/6 Modify something and then check the status of the branch #####
+#### Step 2/6 Modify something and then check the status of the branch ####
   
 ```
 git status
@@ -51,7 +51,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 will be show. 
 These messages indicate that the branch is updated but you have a file in unstage status. You have to pass the file README.md to the stage status.
   
-##### Step 3/6 Stage the files #####
+#### Step 3/6 Stage the files ####
   
 ```
 git add README.md
@@ -59,7 +59,7 @@ git add README.md
   
 If you want to add more files at once, use **git add * **.
   
-##### Step 4/6 Status before commit #####
+#### Step 4/6 Status before commit ####
   
 ```
 git status
@@ -78,13 +78,13 @@ Changes to be committed:
 ```
 will be show. 
 
-##### Step 5/6 Commit changes #####
+#### Step 5/6 Commit changes ####
 
 ```
 git commit -m "fix comments"
 ```  
   
-##### Step 6/6 Push the changes in a new remote branch #####
+#### Step 6/6 Push the changes in a new remote branch ####
 
 A development remote branch will be created.
 
