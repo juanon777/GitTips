@@ -81,7 +81,7 @@ Fast-forward
 
 will be show. 
 This output indicates that there was a change in the **readme.md** file.
-git pull performs two actions: git fetch + git merge.
+git pull performs two actions: **git fetch** + **git merge**.
 
 ### Workflow to modify and upload a change to a remote branch that doesn't exist
 
