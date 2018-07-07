@@ -123,5 +123,29 @@ master        0fa8b46 [origin/master] new file
 ```
 will be show. 
 
+### Delete a branch
+
+Delete a local branch. If this branch isn't merge will ask you for confirmation
+
+```
+git branch -d feature010
+```
+
+Force tu delete a local branch
+
+```
+git branch -D feature010
+```
+
+
+### Optimizing your local repository
+
+Optimizing your git repositories with:
+
+```
+git gc
+```
+
+
 
 [<< BACK](README.md)
