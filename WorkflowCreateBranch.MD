@@ -4,9 +4,16 @@
 
 A Common workflow in our everyday life with git. Create a new branch (e.g **development**) from another base branch (e.g **master**) and then integrate the changes to master through a pull request.
 
-#### Step 1/6 Create a branch (if doesnt exists) and verify if you are in the good branch (development) ####
+- [1/6 Create a branche](#step-16-create-a-branch)
+- [2/6 Modify a file and check the status of the branch](#step-26-modify-something-and-then-check-the-status-of-the-branch)
+- [3/6 Stage the files](#step-36-stage-the-files)
+- [4/6 Status before commit](#step-46-status-before-commit)
+- [5/6 Commit changes](#step-56-commit-changes)
+- [6/6 Push the changes in a new remote branch](#step-66-push-the-changes-in-a-new-remote-branch)
 
-Create the development branch.
+#### Step 1/6 Create a branch ####
+
+Create the development branch and verify if you are in the good branch (development).
 
 ```
 git checkout -b development origin/master
