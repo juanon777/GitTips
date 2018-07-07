@@ -5,6 +5,10 @@
 - [Create a branch from a remote branch](#create-a-branch-from-a-remote-branch)
 - [Fetch and merge the latest modifications](#fetch-and-merge-the-latests-modifications)
 - [List all the branches and where the local branches points](#list-all-the-branches-and-where-the-local-branches-points)
+- [Delete a local branch](#delete-a-branch)
+- [Optimizing your local repository](#optimizing-your-local-repository)
+
+
 
 ### Clone repository
 
@@ -128,19 +132,19 @@ will be show.
 Delete a local branch. If this branch isn't merge will ask you for confirmation
 
 ```
-git branch -d feature010
+git branch -d feature0102
 ```
 
 Force tu delete a local branch
 
 ```
-git branch -D feature010
+git branch -D feature0102
 ```
 
 
 ### Optimizing your local repository
 
-Optimizing your git repositories with:
+Optimize your git repositories with:
 
 ```
 git gc
