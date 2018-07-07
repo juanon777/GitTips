@@ -4,7 +4,7 @@
 
 A Common workflow in our everyday life with git. Create a new branch (e.g **development**) from another base branch (e.g **master**) and then integrate the changes to master through a pull request.
 
-- [1/6 Create a branche](#step-16-create-a-branch)
+- [1/6 Create a branch](#step-16-create-a-branch)
 - [2/6 Modify a file and check the status of the branch](#step-26-modify-something-and-then-check-the-status-of-the-branch)
 - [3/6 Stage the files](#step-36-stage-the-files)
 - [4/6 Status before commit](#step-46-status-before-commit)
