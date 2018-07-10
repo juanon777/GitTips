@@ -11,7 +11,7 @@
 - [Save your work and update from a remote branch](#save-the-current-state-of-the-working-directory-and-update-from-a-remote-branch)
 - [Update your branch losing your local changes](#force-a-branch-update-by-losing-your-local-changes)
 - [Roll back the changes (stage)](#roll-back-the-changes-youve-made-stage---unstage)
-- [Roll back the changes (commit)](#turn-back-the-changes-after-the-last-commit-you-have-made)
+- [Roll back the changes (commit)](#roll-back-the-changes-after-the-last-commit-you-have-made)
 - [Clean tracked remote branches](#clean-tracked-remote-branches)
 - [Create a branch from a remote commit](#create-a-local-branche-from-a-remote-commit)
 - [Update your local branch with another remote branch](#update-your-local-branch-with-another-remote-branche)
