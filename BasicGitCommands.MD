@@ -7,7 +7,6 @@
 - [List all the branches and where the local branches points](#list-all-the-branches-and-where-the-local-branches-points)
 - [Delete a local branch](#delete-a-branch)
 - [Optimizing your local repository](#optimizing-your-local-repository)
-
 - [Switch to another local branch](#switch-to-another-local-branch)
 - [Save your work and update from a remote branch](#save-the-current-state-of-the-working-directory-and-update-from-a-remote-branch)
 - [Update your branch losing your local changes](#force-a-branch-update-by-losing-your-local-changes)
@@ -215,5 +214,18 @@ You need to find a commit id.
 ```
 git checkout -b development ab28e731101c154f70d394c978ca7d40b198433a
 ```
+
+### Update your local branch with another remote branche
+
+You work on a local branch (**featureLocal**) that points to a remote branch (**featureRemote**).
+You can update your local branch from another remote branch (**development**).
+Recommended step to send a pull-request to development. This step minimizes conflicts.
+
+```
+git pull origin development
+```
+
+
+
 
 [<< BACK](README.md)
