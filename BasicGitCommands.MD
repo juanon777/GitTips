@@ -150,6 +150,62 @@ Optimize your git repositories with:
 git gc
 ```
 
+### Switch to another local branch
 
+E.g you are in the local branch feature0102 and you want to work in the development branch.
+
+```
+git checkout development
+```
+
+### Save the current state of the working directory and update from a remote branch
+
+You have not finished your development yet but you want to upgrade from a remote branch. With the stash command you can update from a branch in a clean way and reintegrate your work later.
+  If there are conflicts when updating. First fix the conflict and then reintegrate your work in the branch.
+
+```
+git stash
+git pull
+optional (fix de conflicts: git add, git commit ??)
+git stash pop
+```
+
+### Force a branch update by losing your local changes
+
+Lost all your uncommitted changes and update the latest changes from a remote repository.
+
+```
+git fetch --all
+git reset --hard origin/development (throws away all your uncommitted changes)
+```
+
+### Turn back the changes you've made stage -> unstage
+
+```
+git reset HEAD
+```
+
+### Turn back the changes after the last commit you have made
+
+```
+git reset --hard HEAD~1
+```
+
+You lost your commit!!
+
+
+### Clean tracked remote branches
+
+```
+git pull --prune
+```
+
+### Create a local branche from a remote commit
+
+You need to find a commit id.
+
+```
+git checkout -b development ab28e731101c154f70d394c978ca7d40b198433a
+```
 
 [<< BACK](README.md)
