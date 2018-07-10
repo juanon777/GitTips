@@ -14,6 +14,7 @@
 - [Roll back the changes (commit)](#turn-back-the-changes-after-the-last-commit-you-have-made)
 - [Clean tracked remote branches](#clean-tracked-remote-branches)
 - [Create a branch from a remote commit](#create-a-local-branche-from-a-remote-commit)
+- [Update your local branch with another remote branch](#update-your-local-branch-with-another-remote-branche)
 
 
 
