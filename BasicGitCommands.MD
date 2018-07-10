@@ -8,6 +8,14 @@
 - [Delete a local branch](#delete-a-branch)
 - [Optimizing your local repository](#optimizing-your-local-repository)
 
+- [Switch to another local branch](#switch-to-another-local-branch)
+- [Save your work and update from a remote branch](#save-the-current-state-of-the-working-directory-and-update-from-a-remote-branch)
+- [Update your branch losing your local changes](#force-a-branch-update-by-losing-your-local-changes)
+- [Roll back the changes (stage)](#roll-back-the-changes-youve-made-stage---unstage)
+- [Roll back the changes (commit)](#turn-back-the-changes-after-the-last-commit-you-have-made)
+- [Clean tracked remote branches](#clean-tracked-remote-branches)
+- [Create a branch from a remote commit](#create-a-local-branche-from-a-remote-commit)
+
 
 
 ### Clone repository
@@ -179,13 +187,13 @@ git fetch --all
 git reset --hard origin/development (throws away all your uncommitted changes)
 ```
 
-### Turn back the changes you've made stage -> unstage
+### Roll back the changes you've made stage -> unstage
 
 ```
 git reset HEAD
 ```
 
-### Turn back the changes after the last commit you have made
+### Roll back the changes after the last commit you have made
 
 ```
 git reset --hard HEAD~1
