@@ -135,7 +135,7 @@ Delete a local branch. If this branch isn't merge will ask you for confirmation
 git branch -d feature0102
 ```
 
-Force tu delete a local branch
+Force to delete a local branch
 
 ```
 git branch -D feature0102
