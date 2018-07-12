@@ -226,7 +226,11 @@ Recommended step to send a pull-request to development. This step minimizes conf
 git pull origin development
 ```
 
+### Push your local branch in a new remote branch
 
+```
+git push -u origin remotebranchname
+```
 
 
 [<< BACK](README.md)
