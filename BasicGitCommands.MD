@@ -16,6 +16,7 @@
 - [Create a branch from a remote commit](#create-a-local-branche-from-a-remote-commit)
 - [Update your local branch with another remote branch](#update-your-local-branch-with-another-remote-branche)
 - [Push your local branch in a remote branch](#push-your-local-branch-in-a-new-remote-branch)
+- [Rever a commit](#revert-a-commit)
 
 
 
