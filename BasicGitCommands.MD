@@ -229,9 +229,18 @@ git pull origin development
 
 ### Push your local branch in a new remote branch
 
+branchname is your local change. You will have the same branch in remote
+
 ```
-git push -u origin remotebranchname
+git push -u origin branchname
 ```
 
+### Revert a commit
+
+Revert the changes to this commit. 
+
+```
+git revert ab28e731101c154f70d394c978ca7d40b198433a
+```
 
 [<< BACK](README.md)
