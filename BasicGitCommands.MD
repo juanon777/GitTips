@@ -24,13 +24,13 @@
 
 The first step is always to clone the repository where you are going to work:
 
-```
+```sh
 git clone https://github.com/juanon777/GitTips.git
 ```
 
 The output screen will be similar to:
 
-```
+```sh
 Cloning into 'GitTips'...
 remote: Counting objects: 4, done.
 remote: Compressing objects: 100% (3/3), done.
@@ -42,7 +42,7 @@ A **GitTips** folder will be created.
 
 ### List local and remote branches
 
-```
+```sh
 git branch -a
 ```
 
